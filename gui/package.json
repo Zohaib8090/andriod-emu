@@ -2,7 +2,8 @@
   "name": "gui",
   "private": true,
   "version": "0.0.0",
-  "main": "main.js",
+  "type": "module",
+  "main": "main.cjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

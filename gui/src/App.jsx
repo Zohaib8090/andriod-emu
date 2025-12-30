@@ -9,6 +9,12 @@ const App = () => {
   const scrollRef = useRef(null);
 
   useEffect(() => {
+    if (!window.electronAPI) {
+      console.error('Electron API not found!');
+      setLogs(['ERROR: Dashboard system failed to connect to the host. Please restart the application.']);
+      return;
+    }
+
     window.electronAPI.onScriptOutput((data) => {
       setLogs((prev) => [...prev, data]);
     });
