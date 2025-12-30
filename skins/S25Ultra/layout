@@ -1,0 +1,15 @@
+parts {
+    device {
+        display {
+            width 1440
+            height 3120
+            x 20
+            y 20
+        }
+    }
+    portrait {
+        background {
+            image device.png
+        }
+    }
+}
