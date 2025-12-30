@@ -4,6 +4,7 @@ This repository provides a standalone, portable setup for running a Samsung S25 
 
 ## Features
 
+- **Standalone Windows App**: Sleek GUI for managing and launching emulators without command lines.
 - **No Android Studio Required**: Operates using a local standalone Android SDK.
 - **Samsung S25 Ultra Specifications**:
   - Resolution: 1440 x 3120
@@ -40,6 +41,12 @@ This repository provides a standalone, portable setup for running a Samsung S25 
 
 ## Usage
 
+### Method 1: Windows App (Recommended)
+1. Double-click `start_manager.bat` in the root folder.
+2. The **S25 Ultra Manager** will open.
+3. Click **Setup** for your chosen version, then click **Launch**.
+
+### Method 2: Manual Batch Files
 Simply run the batch file for your chosen version:
 
 - **Launch Standard**: Double-click `launch_s25_ultra.bat`
